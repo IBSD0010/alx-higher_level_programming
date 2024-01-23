@@ -32,7 +32,7 @@ return (1);
 while (head2 != NULL)
 {
 add_nodeint(&aux, head2->n);
-head2 = head2->next;	
+head2 = head2->next;
 }
 aux2 = aux;
 while (*head != NULL)

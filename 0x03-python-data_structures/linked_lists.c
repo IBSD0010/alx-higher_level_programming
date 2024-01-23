@@ -54,7 +54,7 @@ return (new);
 void free_listint(listint_t *head)
 {
 listint_t *current;
- while (head != NULL)
+while (head != NULL)
 {
 current = head;
 head = head->next;
